@@ -127,6 +127,17 @@ export const ButtonLabelWrapper = styled.div`
   padding: ${spacing.one} 0;
 `;
 
+export const TransportationButtonSetWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export const TransportationButton = styled(ButtonReset)`
+  height: 180px;
+  width: 270px;
+  background-image: 
+`;
+
 export const InformationNotice = styled.div`
   padding: ${spacing.one} 0;
   font-size: ${fontSizes.description};

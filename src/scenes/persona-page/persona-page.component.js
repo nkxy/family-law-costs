@@ -25,6 +25,8 @@ import {
   ButtonOption,
   ButtonControlWrapper,
   ButtonLabelWrapper,
+  TransportationButtonSetWrapper,
+  TransportationButton,
   InformationNotice,
   InformationCard,
   SectionSmallSubheader,
@@ -163,6 +165,15 @@ export class PersonaPageComponent extends React.Component {
               </TotalCostsWrapper>
             </InformationCard>
           </SectionBlock>
+
+          <SectionSubheader>Transportation Costs</SectionSubheader>
+          <PersonaTextRegular>I live in a:</PersonaTextRegular>
+          <TransportationButtonSetWrapper>
+            <TransportationButton>City</TransportationButton>
+            <TransportationButton>Town</TransportationButton>
+            <TransportationButton>Remote Area</TransportationButton>
+          </TransportationButtonSetWrapper>
+
         </PersonaSection>
       </Grid>
     );
